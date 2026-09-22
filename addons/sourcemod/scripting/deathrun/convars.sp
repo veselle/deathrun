@@ -34,8 +34,8 @@ void ConVars_Init()
 	PSM_AddEnforcedConVar("mp_teams_unbalance_limit", "0");
 	PSM_AddEnforcedConVar("tf_arena_first_blood", "0");
 	PSM_AddEnforcedConVar("tf_arena_use_queue", "0");
-	PSM_AddEnforcedConVar("tf_avoidteammates_pushaway", "0");
-	PSM_AddEnforcedConVar("tf_scout_air_dash_count", "0");
+	PSM_AddEnforcedConVar("tf_avoidteammates_pushaway", "0")#
+	# PS#_AddEnforcedConVar("tf_scout_air_dash_count", "0");
 	PSM_AddEnforcedConVar("tf_solidobjects", "0");
 	
 	PSM_AddConVarChangeHook(dr_activator_speed_buff, OnConVarChanged_ActivatorSpeedBuff);
